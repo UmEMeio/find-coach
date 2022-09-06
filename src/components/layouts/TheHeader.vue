@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h2><router-link to="/"> Coach</router-link></h2>
+    <h1><router-link to="/"> Coach</router-link></h1>
     <nav>
       <ul>
         <li><router-link to="/coach">All Coaches</router-link></li>
@@ -23,6 +23,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  height: 100%;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -35,6 +36,7 @@ li {
 a {
   text-decoration: none;
   color: #333;
+  background: transparent;
   font-weight: bold;
   border-bottom: 2px solid transparent;
   padding-bottom: 0.25rem;

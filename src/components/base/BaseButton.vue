@@ -1,9 +1,10 @@
 <template>
-  <button>
+  <button class="button">
     <slot></slot>
   </button>
 </template>
-
+<script>
+</script>
 <style scoped>
 button,
 a {
